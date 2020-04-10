@@ -19,6 +19,10 @@ public class TestController {
 
     @RequestMapping(value = "info3",method = RequestMethod.GET)
     public String testInfo3(){
-        return "testinfo2";
+        return "testinfo3";
+    }
+    @RequestMapping(value = "info4",method = RequestMethod.GET)
+    public String testInfo4(){
+        return "testinfo4";
     }
 }
